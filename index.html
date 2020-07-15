@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bus App</title>
+        <link rel="stylesheet" href="build/style.css">
+        <link rel="stylesheet" href="build/style2.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.0/semantic.min.css" />
+               <script src="js/index.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF5Qv9oJxfuKYucO07ZeNNt2lSe-mYG_U&amp;callback=initMap" async="" defer=""></script>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <style>
+         
+        </style>
+      </head>
+      
+    </head>
+    <body>
+        <div class="title">Find a bus</div>
+        
+        <div class="stores-list-container ">
+   
+               
+                   
+                        <div class="  p-4">
+                    <input id= "currentlocation" type="text" placeholder="Where are you located?" class="bg-brown pr-20 pl-20 p-4 rounded-full"/>
+                    
+                     </div>  
+                                                                              
+                            
+                            
+                <div class="p-4 "    >
+            <input id= "destination" type="text" placeholder="Where would you like to go?" class="bg-gray-700 pr-20 pl-20 p-4 w-3\4 border rounded-full"/>
+            
+                </div>
+
+                <div class="flex items-end w-full justify-center" > 
+                    <button class=" myButton border-rounded w-1/4 py-2 border-blue-700 rounded bg-green-500 hover:bg-green-400 font-bold px-2 text-white ml-2" id="myButton" onclick="show()">I need a bus</button>
+                    </div>
+            </div>                                         
+                 
+                    
+               
+          
+        <div id="map"></div>
+        
+        
+            
+        
+    </body>
+</html> 

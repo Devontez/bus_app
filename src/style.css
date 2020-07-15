@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+
+ .header{
+     height: auto
+ }
+ .header nav{
+     background:#313334;
+     opacity: 25;
+    
+ }
+ .image {
+    height: auto;
+  }
+ @media (min-width:640px) 
+{
+    .header {
+      height: 585px;
+    }}
+    .image {
+        height: 582px;
+      }
+
+
+
+@tailwind utilities;
+
